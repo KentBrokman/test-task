@@ -1,0 +1,108 @@
+.button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    width: 80px;
+    height: 40px;
+
+    border: 0;
+    background-color: #61CB7F;
+    border-radius: 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #33B257;
+}
+.button:focus {
+    outline: 0;
+}
+.button:active {
+    box-shadow: 0 0 1px 4px rgba(97, 203, 127, 0.92);;
+}
+
+/* Users Arrow Button */
+
+.usersArrowButton {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usersArrowButton img {
+    width: 10px;
+    height: 10px;
+}
+
+
+/* Login Annotation Button */
+.loginAnnotationButton {
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+}
+.loginAnnotationButton img {
+    height: 14px;
+    width: 14px;
+    margin-left: 4px;
+}
+
+/*Start Page Butoon */
+.startPageButton {
+    margin: 10px;
+
+    border-radius: 10px;
+
+    font-size: 20px;
+}
+
+/* Search button */
+.searchButton {
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+
+    border-radius: 10px;
+
+    font-size: 14px;
+}
+
+/* Add item button */
+.addItemButton {
+    width: 120px;
+    height: 30px;
+
+    border-radius: 10px;
+
+    font-size: 14px;
+}
+
+.addButton {
+    width: 60px;
+    height: 30px;
+
+    background: #33B257;
+    border-radius: 10px;
+    border: 2px solid #438656;
+
+    font-size: 14px;
+}
+
+.addButton:hover {
+    background: #438656;
+}
+
+
+
+

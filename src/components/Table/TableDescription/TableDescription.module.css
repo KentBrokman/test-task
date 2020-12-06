@@ -1,0 +1,10 @@
+.name {
+    margin-right: 30px;
+}
+.address {
+    margin-right: 30px;
+}
+.descriptionText {
+    width: 460px;
+    overflow: auto;
+}
